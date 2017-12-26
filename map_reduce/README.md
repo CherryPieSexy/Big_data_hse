@@ -7,16 +7,16 @@
 ```
 # Запуск в докере hadoop:
 
-Имя докера: wizardly_heyrovsky
+Имя докера: quirky_leakey
 ```shell
    sudo docker ps -a
 ```
 
 Копирование фаилов:
 ```shell
-   sudo docker cp ./map.py wizardly_heyrovsky:map.py
-   sudo docker cp ./reduce.py wizardly_heyrovsky:reduce.py
-   sudo docker cp ./sample.txt wizardly_heyrovsky:sample.txt
+   sudo docker cp ./map.py quirky_leakey:map.py
+   sudo docker cp ./reduce.py quirky_leakey:reduce.py
+   sudo docker cp ./sample.txt quirky_leakey:sample.txt
 ```
 запуск докера:
 
