@@ -2,7 +2,9 @@
 К сожалению, разобрался только с простой частью задания :c
 
 # Запуск локально:
-cat sample.txt | python map.py | sort -k1,1 | python reduce.py > output.txt
+```shell
+   cat sample.txt | python map.py | sort -k1,1 | python reduce.py > output.txt
+```
 # Запуск в докере hadoop:
 
 Имя докера: wizardly_heyrovsky
